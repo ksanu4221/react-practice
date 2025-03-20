@@ -1,0 +1,1 @@
+dom- tree like structure in which every node represent element and attribute 
