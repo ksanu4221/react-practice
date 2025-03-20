@@ -7,7 +7,8 @@ const Stationary = (props) => {
     <div>
      <h3>{Header}</h3>
      <ol>{
-        items.map((item)=><li>{item}</li>)
+        items.map((item)=><li>{item}</li>
+    )
      }</ol>
 
     </div>
