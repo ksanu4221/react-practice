@@ -28,7 +28,9 @@ const EmployeeDetails = () => {
      <ol>  {
         employees.map((employee) => 
                          
-                 <li style={{backgroundColor:((employee.level===2)?"orange":"")}}>
+                 <li style={{backgroundColor:((employee.level===2)?"orange":""),
+                           border:(employee.designation==="President"?"solid 2px red":"")
+                 }}>
                     
                     Name: {employee.name},  level: {employee.level} , dept: {employee.dept} , designation: {employee.designation} , salary: {employee.salary}
                     
