@@ -13,6 +13,15 @@ import Gadgets from './set2/Gadgets'
 import UserProfile from './set2/UserProfile'
 import UseState from './set2/UseState'
 import Donation from './set3/Donation'
+// import SignUp from './basics/SignUp'
+// import FruitVeg from './set4/FruitVeg'
+import Cartoon from './set3/Cartoon'
+import TodoList from './set4/TodoList'
+import Game from './set4/Game'
+import Chat from './set5/Chat'
+import Cars from './set3/Cars'
+import Character from './set4/Character'
+
 
 function App() {
 
@@ -42,16 +51,33 @@ function App() {
   //   { id: 7, name: 'mobile', description: 'iPhone 12', price: 90000 }, ]
   // const title = 'React is awesome'
   // const content = 'React is a JavaScript library for building user interfaces.'
-  const DonationData = [
-    {
-      id: 1,     name: 'Nitin',     Donation: 7800,
-    },   {     id: 2,     name: 'Mehak',     Donation: 9500,
-    },   {     id: 3,     name: 'Mehul',     Donation: 65000,
-    },   {     id: 4,     name: 'Nina',     Donation: 560,
-    },
-  ]
-  
-  return (
+  // const DonationData = [
+  //   {
+  //     id: 1,     name: 'Nitin',     Donation: 7800,
+  //   },   {     id: 2,     name: 'Mehak',     Donation: 9500,
+  //   },   {     id: 3,     name: 'Mehul',     Donation: 65000,
+  //   },   {     id: 4,     name: 'Nina',     Donation: 560,
+  //   },
+  // ]
+  // const itemList = [
+  //   { id: 1, name: "Apple", category: "Fruit" },
+  //   { id: 2, name: "Carrot", category: "Vegetable" },
+  //   { id: 3, name: "Banana", category: "Fruit" },
+  //   { id: 4, name: "Broccoli", category: "Vegetable" }, ];
+  // const cartoons = [
+  //   {     id: 1,
+  //       name: 'Mickey Mouse',     superpower: 'Invisibility',     magnitude: 1
+  //     },   {     id: 2,
+  //       name: 'Spongebob Squarepants',     superpower: 'Super Strength',     magnitude: 3
+  //     },   {     id: 3,
+  //       name: 'Bugs Bunny',     superpower: 'Teleportation',     magnitude: 9
+  //     },   {     id: 4,
+  //       name: 'Tom and Jerry',     superpower: 'Intelligence',     magnitude: 8
+  //     },   {     id: 5,
+  //       name: 'The Powerpuff Girls',     superpower: 'Flight',     magnitude: 10
+  //     }
+  //   ]
+    return (
   <>
     {/* <EmployeeCard name="sanu" designation="se" experience={3}/>
     <Button backgroundColor={backgroundColor} color={color} borderRadius={borderRadius} padding={padding}/>
@@ -61,12 +87,20 @@ function App() {
     {/* <UseState/> */}
    {/* <Fetchdata/> */}
    {/* <FetchProduct/> */}
-   <UserProfile heading="User Profile" height="300px" width="300px"/>
+   {/* <UserProfile heading="User Profile" height="300px" width="300px"/> */}
    {/* <Form/> */}
    {/* <Gadgets products={products}/> */}
    {/* <Article title={title} content={content}/> */}
    {/* <Form/> */}
-   <Donation DonationData={DonationData}/>
+   {/* <Donation DonationData={DonationData}/> */}
+ {/* <SignUp/> */}
+ {/* <FruitVeg itemList={itemList}/> */}
+ {/* <Cartoon cartoons={cartoons} superpower="Intelligence"/> */}
+ {/* <TodoList/> */}
+ {/* <Game/> */}
+ {/* <Chat/> */}
+ <Cars/>
+ <Character/>
   </>
   )
 }
