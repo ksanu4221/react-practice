@@ -32,7 +32,7 @@ const Character = () => {
         powers: "clownlike appearance and sick humour",       costume: "Joker costume",
       },
     ],
-  };  
+  };
   const[title,setTitle]=useState("")
 const showHeroes=()=>{
     setChar(characters.heroes)
@@ -48,7 +48,7 @@ const showVillains=()=>{
 <button onClick={showVillains}>show villain</button>
 <h1>{title}</h1>
    {
-    char.map((item)=><div>
+    char.map((item)=><div >
         <h2>{item.name}</h2>
         <p>Powers:{item.powers}</p>
         <p>Costume:{item.costume}</p>

@@ -21,6 +21,9 @@ import Game from './set4/Game'
 import Chat from './set5/Chat'
 import Cars from './set3/Cars'
 import Character from './set4/Character'
+import Lifecycle from './basics/Lifecycle'
+import ResizeFont from './set4/ResizeFont'
+import FruitsVeg from './set4/FruitsVeg'
 
 
 function App() {
@@ -99,8 +102,11 @@ function App() {
  {/* <TodoList/> */}
  {/* <Game/> */}
  {/* <Chat/> */}
- <Cars/>
- <Character/>
+ {/* <Cars/> */}
+ {/* <Character/> */}
+ {/* <Lifecycle/> */}
+ {/* <ResizeFont/> */}
+ <FruitsVeg/>
   </>
   )
 }
